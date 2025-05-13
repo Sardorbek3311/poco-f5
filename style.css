@@ -7,6 +7,7 @@
 .nav{
     width: 1366px;
     height: 50px;
+    border-top: 10px  yellow;
     border: 1px solid rgb(32, 32, 32);
     background: rgb(32, 32, 32);
 }
@@ -15,7 +16,7 @@
     height: 50px;
     border: 1px solid yellow;
     background: yellow;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .poco h2{
     margin-top: 10px;
@@ -24,33 +25,34 @@
     margin-left: 17px;
 }
 .glo h3{
-    margin-left: 450px;
-    margin-top: -35px;
-    font-size: 15px;
+    margin-left: 250px;
+    margin-top: -32px;
+    font-size: 12px;
     color: white;
     font-weight: 400;
 }
 .sign h3{
-    margin-left: 1190px;
+    margin-left: 1170px;
     margin-top: -16px;
     color: white;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
 }
 .disnav{
     position: absolute;
     display: flex;
-    width: 900px;
+    width: 1200px;
     height: 30px;
-    gap: 25px;
-    margin-top: -620px;
-    margin-left: 460px;
+    gap: 60px;
+    margin-top: -560px;
+    margin-left: 180px;
     color: white;
 }
 .disnav p a{
     text-decoration-line: none;
     color: white;
     font-weight: 700;
+    font-size: 16px;
     transition: .4s;
 }
 .disnav p a:hover{
@@ -59,7 +61,7 @@
 }
 img{
     width: 1366px;
-    height: 630px;
+    height: 580px;
     position: relative;
 }
 .Poc{
@@ -89,5 +91,159 @@ img{
     color: white;
 }
 .learn:hover{
+    border: 1px solid rgb(0, 231, 162);
     background: rgb(0, 231, 162);
+}
+.nav2{
+    margin-top: -4px;
+    border: 1px;
+    width: 1366px;
+    height: 800px;
+    background: black;
+}
+.rasm3{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.rasm3 img{
+    margin-top: 15px;
+    width: 400px;
+    height: 250px;
+}
+.video p{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.videos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.videos img{
+    margin-top: 15px;
+    width: 400px;
+    height: 300px;
+}
+.nav4{
+    border: 1px;
+    background: rgb(31, 31, 31);
+    width: 1366px;
+    margin-top: -10px;
+    height: 120px;
+    position: absolute;
+}
+.lets p{
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.get p{
+    width: 220px;
+    height: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+.follow{
+    margin-left: 800px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+.wet p{
+    width: 220px;
+    height: 20px;
+    margin-left: 800px;
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+.ifel{
+    display: flex;
+    gap: 40px;
+    margin-left: 1000px;
+    margin-top: -38px;
+}
+.face i{
+    color: gray;
+}
+.insta i{
+    color: gray;
+}
+.twitter i{
+    color: gray;
+}
+.nav5{
+    width: 1366px;
+    height: 540px;
+    background: black;
+}
+.learn12 h4{
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.learn12 p a{
+    color: rgb(170, 170, 170);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    text-decoration-line: none;
+}
+.sup h4{
+    position: absolute;
+    color: white;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+.sup p a{
+    position: absolute;
+    color: rgb(170, 170, 170);
+    margin-top: 20px;
+    margin-left: 300px;
+    text-decoration-line: none;
+}
+.about h4{
+    position: absolute;
+    color: white;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.about p a{
+    position: absolute;
+    color: rgb(170, 170, 170);
+    margin-top: -50px;
+    margin-left: 500px;
+    text-decoration-line: none;
+}
+.follows h4{
+    position: absolute;
+    color: white;
+    margin-top: -245px;
+    margin-left: 690px;
+}
+.follows p a{
+    position: absolute;
+    color: rgb(170, 170, 170);
+    margin-top: -200px;
+    margin-left: 700px;
+    text-decoration-line: none;
+}
+hr{
+    width: 1270px;
+    margin-left: 40px;
+    margin-top: -100px;
+}
+.copy p{
+    color: rgb(170, 170, 170);
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 15px;
 }
